@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "static/uploads"
+public_folder: "/uploads" 
+
+collections:
+  - name: 'movies'
+    label: 'Movies'
+    folder: 'movies'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Featured Image', name: 'featuredImage', widget: 'image' }
+      - { label: 'Poster Image', name: 'posterImage', widget: 'image' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Release', name: 'release', widget: 'string' }
+      - { label: 'View', name: 'view', widget: 'string'}
+      - { label: 'Code', name: 'code', widget: 'string' }
+      - { label: 'Genre', name: 'genre', widget: 'string'}
+      - { label: 'Ranking', name: 'ranking', widget: 'string'}
+      - { label: 'Trailer', name: 'trailer', widget: 'string'}
