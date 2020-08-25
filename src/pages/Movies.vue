@@ -1,7 +1,7 @@
 <template>
     <layout>
               <!-- Seccion productos -->
-    <section class="bg-gray-200 pb-10">
+    <section class="bg-white pb-10">
       <div class="flex items-center justify-center pt-8 pb-8">
        <h2 class="text-4xl">Películas</h2>
       </div>
@@ -26,25 +26,41 @@
                  border-gray-600
                  pb-4
                  rounded-b-md">
-          <p class="text-s pl-3 text-gray-600 mt-2 mb-1 ">Calificación {{edge.node.ranking}} / 10</p>
-          <h3 class="text-gray-700 
+          <p class="text-s pl-3 text-black font-thin mt-2 mb-1 ">Calificación {{edge.node.ranking}} / 10</p>
+          <h3 class="text-black
                     text-s 
+                    font-medium
                     tracking-widest 
                     mt-2 mb-1 
                     pl-3">
             {{edge.node.title}}
           </h3>
+          <div>
+            <button v-for="tag in edge.node.tags" :key="tag" 
+                           class="mt-2
+                           text-xs
+                         text-black
+                         bg-orange-400
+                           border-0
+                           py-2 px-6
+                           ml-3
+                           focus:outline-none
+                           rounded
+                           hover:bg-white">
+            {{tag}}
+            </button>
+          </div>
          <g-link :to="edge.node.path"> 
              <button class="mt-3 
                         text-white 
-                        bg-indigo-500 
+                        bg-black
                         border-0 
                         py-2 px-6 
                         ml-3
                         focus:outline-none 
-                        hover:bg-indigo-600 
+                        hover:bg-orange-400 
                         rounded">
-          Conoce más
+          Más información
             </button> 
           </g-link> 
           </div>
@@ -65,6 +81,7 @@ query{
         ranking
         featuredImage
         path
+        tags
       }
     }
   }

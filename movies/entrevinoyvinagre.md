@@ -9,4 +9,5 @@ code: '00001'
 genre: Comedia
 ranking: '3'
 trailer: https://www.youtube.com/embed/MkB-gs5yb0g
+tags: [comedia, drama, mujeres]
 ---

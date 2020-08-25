@@ -11,4 +11,5 @@ code: "00004"
 genre: Comedia
 ranking: "6.5"
 trailer: " https://www.youtube.com/embed/z6ou7CN_hpU"
+tags: [navidad,comedia,amigos]
 ---

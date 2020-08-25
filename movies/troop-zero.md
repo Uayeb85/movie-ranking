@@ -13,4 +13,5 @@ code: "00005"
 genre: Comedia
 ranking: "8"
 trailer: https://www.youtube.com/embed/Gi4C6GncmQ4
+tags: [comedia, infantil, girl power]
 ---

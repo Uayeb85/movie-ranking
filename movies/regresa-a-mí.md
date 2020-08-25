@@ -12,4 +12,5 @@ code: "00003"
 genre: Drama
 ranking: "6"
 trailer: " https://www.youtube.com/embed/iENLHqiHlsw"
+tags: [drama, drogas, julia roberts]
 ---

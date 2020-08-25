@@ -20,3 +20,4 @@ collections:
       - { label: 'Genre', name: 'genre', widget: 'string'}
       - { label: 'Ranking', name: 'ranking', widget: 'string'}
       - { label: 'Trailer', name: 'trailer', widget: 'string'}
+      - { label: 'Tags', name: 'tags', widget: 'string'}
