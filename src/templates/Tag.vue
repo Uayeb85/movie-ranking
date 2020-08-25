@@ -1,14 +1,13 @@
 <template>
     <layout>
-              <!-- Seccion productos -->
-    <section class="bg-white pb-10">
-      <div class="flex items-center justify-center pt-8 pb-8">
-       <h2 class="text-4xl">Vistas Recientemente</h2>
-      </div>
-    <!-- Tarjetas -->
+        <section class="bg-white">
+            <div class="flex items-center justify-center pt-8 pb-8">
+                <h2 class="text-4xl">{{$page.tag.title}}</h2>
+            </div>
+                <!-- Tarjetas -->
 
       <div class="flex justify-around flex-wrap ">
-        <div v-for="edge in $page.allMovie.edges.slice(0,4)"
+        <div v-for="edge in $page.tag.belongsTo.edges"
           :key="edge.node.id"
           class="
                 mt-4 mb-4
@@ -29,14 +28,14 @@
           <p class="text-s pl-3 text-black font-thin mt-2 mb-1 ">Calificación {{edge.node.ranking}} / 10</p>
           <h3 class="text-black
                     text-s 
-                    tracking-widest 
                     font-medium
+                    tracking-widest 
                     mt-2 mb-1 
                     pl-3">
             {{edge.node.title}}
-          </h3>          
+          </h3>
           <div>
-            <g-link v-for="tag in edge.node.tags" :to="tag.path" :key="tag.id">  
+          <g-link v-for="tag in edge.node.tags" :to="tag.path" :key="tag.id">  
             <button 
                  class="mt-2
                            text-xs
@@ -68,40 +67,32 @@
           </div>
         </div>
       </div>
-    </section>
+        </section>
     </layout>
 </template>
 
-<script>
-export default {
-  metaInfo: {
-    title: 'Movie Raiting by IAmUayeb'
-  }
-}
-</script>
-
 <page-query>
-query{
-  allMovie{
-    edges{
-      node{
-        code
-        path
+query ($id:ID){
+    tag(id:$id){
         title
-        trailer
-        release
-        view
-        genre
-        description
-        ranking
-        featuredImage
-        tags{
-          id
-          path
+        belongsTo{
+            edges{
+                node{
+                    ... on Movie{
+                            title
+                            id
+                            ranking
+                            path
+                            featuredImage
+                            tags{
+                                id
+                                path
+                                }
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
 </page-query>
 

@@ -36,8 +36,9 @@
             {{edge.node.title}}
           </h3>
           <div>
-            <button v-for="tag in edge.node.tags" :key="tag" 
-                           class="mt-2
+          <g-link v-for="tag in edge.node.tags" :to="tag.path" :key="tag.id">  
+            <button 
+                 class="mt-2
                            text-xs
                          text-black
                          bg-orange-400
@@ -46,9 +47,10 @@
                            ml-3
                            focus:outline-none
                            rounded
-                           hover:bg-white">
-            {{tag}}
+                           hover:bg-white">          
+            {{tag.id}}
             </button>
+          </g-link>
           </div>
          <g-link :to="edge.node.path"> 
              <button class="mt-3 
@@ -81,7 +83,10 @@ query{
         ranking
         featuredImage
         path
-        tags
+        tags{
+          id
+          path
+        }
       }
     }
   }

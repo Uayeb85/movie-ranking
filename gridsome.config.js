@@ -29,6 +29,13 @@ module.exports = {
       options: {
         typeName: 'Movie',
         path: 'movies/**/*.md',
+        refs: {
+          // Create a Tag content type and its nodes automatically.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
       }
     }
   ],
@@ -45,6 +52,12 @@ module.exports = {
         path:"/movies/:title",
         component:"./src/templates/Movie.vue",
       }
-    ]
+    ],
+    Tag:[
+      {
+        path:"/tags/:id",
+        component:"./src/templates/Tag.vue",
+      },
+    ],
   }
 }

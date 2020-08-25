@@ -9,8 +9,23 @@
                     <h1 class="text-black text-3xl title-font font-medium mb-1">{{$page.movie.title}} <span class="text-base text-black"> ({{$page.movie.release}}) </span> </h1>
                     <p class="leading-relaxed">Calificación: <span class="font-bold"> {{$page.movie.ranking}} / 10 </span></p>
                     <p class="leading-relaxed">Fecha que la vi: <span class="font-bold"> {{$page.movie.view}} </span></p>
-                    <p class="leading-relaxed">Tags: <span class="font-bold" v-for="tag in $page.movie.tags" :key="tag"> #{{tag}} </span></p>
-
+                    <div>
+                         <g-link v-for="tag in $page.movie.tags" :to="tag.path" :key="tag.id">  
+                            <button 
+                                class="mt-2
+                                        text-xs
+                                        text-white
+                                        bg-black
+                                        border-0
+                                        py-2 px-6
+                                        ml-1
+                                        focus:outline-none
+                                        rounded
+                                        hover:bg-orange-400">          
+                            {{tag.id}}
+                           </button>
+                         </g-link>
+                    </div>
                     <div class="flex">
                         <span class="title-font font-medium text-xl text-black">  <br> 
                         {{$page.movie.description}}
@@ -45,7 +60,10 @@ query ($path: String!){
     path
     trailer
     posterImage
-    tags
+    tags{
+        id
+        path
+    }
   }
 }
 
