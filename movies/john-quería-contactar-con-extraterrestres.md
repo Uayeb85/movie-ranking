@@ -11,5 +11,5 @@ code: "00010"
 genre: Cortometraje
 ranking: "6"
 trailer: " https://www.youtube.com/embed/IUOaIAh2auU"
-tags: List [ "cortometraje", "amor", "universo" ]
+tags: ["cortometraje", "amor", "universo"]
 ---
