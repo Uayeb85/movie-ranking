@@ -12,5 +12,5 @@ code: "00007"
 genre: Accion
 ranking: "5"
 trailer: https://www.youtube.com/embed/gBR_FDFpggU
-tags: Mafia
+tags: '["mafia", "accion", "drogas"]'
 ---
