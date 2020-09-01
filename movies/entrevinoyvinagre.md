@@ -6,7 +6,7 @@ description: Para celebrar que Rebecca (Rachel Dratch) cumple 50 años, Abby (Am
 release: '2019'
 view: '08-08-2020'
 code: '00001'
-genre: Comedia
+genre: Comedia   
 ranking: '3'
 trailer: https://www.youtube.com/embed/MkB-gs5yb0g
 tags: [comedia, drama, mujeres]

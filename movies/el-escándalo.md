@@ -13,5 +13,5 @@ code: "00008"
 genre: Drama
 ranking: "7"
 trailer: https://www.youtube.com/embed/0rBnkBIhoFE
-tags: List [ "girl power", "drama", "hechos reales" ]
+tags: ["girl power", "drama", "hechos reales" ]
 ---
