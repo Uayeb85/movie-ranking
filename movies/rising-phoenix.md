@@ -10,5 +10,5 @@ code: "00009"
 genre: Documental
 ranking: "8"
 trailer: https://www.youtube.com/embed/-W7Bek4jvos
-tags: List [ "docuemental", "deportes", "juegos paralímpicos" ]
+tags: ["docuemental", "deportes", "juegos paralímpicos"]
 ---
