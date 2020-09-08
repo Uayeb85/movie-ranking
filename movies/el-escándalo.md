@@ -8,7 +8,7 @@ description: Cuando Gretchen Carlson golpea al fundador de Fox News, Roger
   Kelly, a presentar su propia historia, así como a muchas otras mujeres,
   incitando a un movimiento que reverbera en todo el mundo.
 release: "2019"
-view: 29-08-2020
+view: 08-29-2020
 code: "00008"
 genre: Drama
 ranking: "7"

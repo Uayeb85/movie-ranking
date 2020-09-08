@@ -82,19 +82,16 @@ export default {
 
 <page-query>
 query{
-  allMovie{
+  allMovie (sortBy: "view" , order: DESC){
     edges{
       node{
-        code
-        path
-        title
-        trailer
-        release
+        id
         view
-        genre
-        description
+        code
+        title
         ranking
         featuredImage
+        path
         tags{
           id
           path

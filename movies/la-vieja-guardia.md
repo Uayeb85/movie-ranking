@@ -6,7 +6,7 @@ description: Un grupo de mercenarios, todos inmortales y con la capacidad de
   curarse a sí mismos, descubren que alguien sabe su secreto y deben luchar para
   proteger su libertad.
 release: "2020"
-view: 22-08-2020
+view: 08-22-2020
 code: "00006"
 genre: Acción
 ranking: "6.5"

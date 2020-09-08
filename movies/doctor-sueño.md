@@ -10,7 +10,7 @@ description: ' La historia transcurre algunos años después de los
   de viajeros que se alimentan de los niños que poseen el don de "el
   resplandor". '
 release: "2019"
-view: 03-09-2020
+view: 09-03-2020
 code: "00011" 
 genre: Terror
 ranking: "6"

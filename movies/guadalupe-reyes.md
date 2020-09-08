@@ -6,7 +6,7 @@ description: Luego de diez años, dos amigos se reencuentran y deciden llevar a
   cabo el "Guadalupe Reyes", un reto que los llevará a vivir todo todo tipo de
   aventuras y experiencias que pondrán a prueba su amistad.
 release: "2019"
-view: 16-08-2020
+view: 08-16-2020
 code: "00004"
 genre: Comedia
 ranking: "6.5"

@@ -74,10 +74,11 @@
 
 <page-query>
 query{
-  allMovie{
+  allMovie (sortBy: "view" , order: DESC){
     edges{
       node{
         id
+        view
         code
         title
         ranking

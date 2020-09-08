@@ -6,7 +6,7 @@ description: John Shepherd pasó 30 años tratando de contactar extraterrestres
   transmitiendo música a millones de millas al espacio. Después de abandonar la
   búsqueda, establece una conexión diferente aquí en la Tierra.
 release: "2020"
-view: 30-08-2020
+view: 08-30-2020
 code: "00010"
 genre: Cortometraje
 ranking: "6"
