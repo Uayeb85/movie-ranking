@@ -12,5 +12,5 @@ code: "00012"
 genre: Crimen
 ranking: "6.5"
 trailer: https://www.youtube.com/embed/qns48PtK2io
-tags: crimen, hechos reales, drogas
+tags: [crimen, hechos reales, drogas]
 ---
