@@ -18,5 +18,5 @@ code: "00013"
 genre: Acción
 ranking: "7"
 trailer: https://www.youtube.com/embed/1qkuieXeHbg
-tags: "[guerra, acción, historica]"
+tags: [guerra, acción, historica]
 ---

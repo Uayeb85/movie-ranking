@@ -11,5 +11,5 @@ code: "00014"
 genre: Documental
 ranking: "7"
 trailer: https://www.youtube.com/embed/QEiRXsEqpCA
-tags: "[documental, redes sociales, adicción]"
+tags: [documental, redes sociales, adicción]
 ---

@@ -89,13 +89,20 @@
           </div>
         </div>
       </div>
+      <div class="mt-10">
+        <Pager :info="$page.allMovie.pageInfo" linkClass="pager" class="text-center"/>
+      </div>
     </section>
     </layout>
 </template>
 
 <page-query>
-query{
-  allMovie (sortBy: "title" , order: ASC){
+query ($page: Int){
+  allMovie (sortBy: "title" , order: ASC, perPage:8, page: $page) @paginate{
+    pageInfo{
+          totalPages
+          currentPage 
+        }
     edges{
       node{
         id
@@ -112,16 +119,21 @@ query{
       }
     }
   }
+  
 }
 </page-query>
 
 <script>
+import { Pager} from 'gridsome'
+
+
 export default {
   data(){
     return{
       isOpen:false
     }
-  }
+  },
+  components: {Pager}
 }
 </script>
 
@@ -131,4 +143,18 @@ export default {
     height: 300px;
     width: 369px;
 }
+
+.pager{
+  letter-spacing: 2px;
+  padding: 10px;
+  margin-right: 8px;
+  background-color: black;
+  color: #fff;
+}
+
+.pager:hover{
+  background: white;
+  color: black;
+}
+
 </style>

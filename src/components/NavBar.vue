@@ -2,7 +2,7 @@
   <header class="bg-black sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-4">
       <div class="flex items-center justify-between px-4 py-4 sm:p-0">
         <div>
-            <h1 class="text-white text-lg font-bold">I Am Uayeb</h1>
+           <g-link to="/"> <h1 class="text-white text-lg font-bold">I Am Uayeb</h1> </g-link>
         </div>
         <div class="sm:hidden">
             <button @click="isOpen = !isOpen"  type="button" class=" block text-white focus:text-orange-500 focus:outline-none hover:text-orange-600">
