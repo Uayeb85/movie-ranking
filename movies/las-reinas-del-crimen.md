@@ -15,5 +15,5 @@ code: "00014"
 genre: Suspenso
 ranking: "6.5"
 trailer: https://www.youtube.com/embed/pdE5OFM2xJE
-tags: List [ "mafia", "comics", "girl power" ]
+tags: [ "mafia", "comics", "girl power" ]
 ---
