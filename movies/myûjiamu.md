@@ -12,6 +12,6 @@ view: 09-12-2002
 code: "00015"
 genre: Terror
 ranking: "6"
-trailer: https://www.youtube.com/embed/npHVfABJfE
+trailer: https://www.youtube.com/embed/-npHVfABJfE
 tags: '["Crimen", "Asesino Serial", "Japon"]'
 ---
