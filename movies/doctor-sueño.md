@@ -15,5 +15,5 @@ code: "00011"
 genre: Terror
 ranking: "6"
 trailer: https://www.youtube.com/embed/ohBLtn5FI0E
-tags: ["terror", "stephen king", "magia"]
+tags: [terror, stephen king, magia]
 ---

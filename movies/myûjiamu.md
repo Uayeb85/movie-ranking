@@ -13,5 +13,5 @@ code: "00015"
 genre: Terror
 ranking: "6"
 trailer: https://www.youtube.com/embed/-npHVfABJfE
-tags: ["Crimen", "Asesino Serial", "Japon"]
+tags: [crimen, asesino serial, japón]
 ---
