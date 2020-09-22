@@ -18,6 +18,6 @@ view: 09-16-2020
 code: "00016"
 genre: Drama
 ranking: "5"
-trailer: https://www.youtube.com/embed/v=KtN6fpjRSHs
+trailer: https://www.youtube.com/embed/KtN6fpjRSHs
 tags: Religión, Crimen, Vidas Cruzadas
 ---
