@@ -13,5 +13,5 @@ code: "00018"
 genre: Documental
 ranking: "7"
 trailer: https://www.youtube.com/embed/pqel7iQqleU
-tags: Documental, Walter Mercado, Astrología
+tags: [documental, walter mercado, astrología]
 ---

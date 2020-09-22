@@ -11,5 +11,5 @@ code: "00017"
 genre: Drama
 ranking: "6"
 trailer: https://www.youtube.com/embed/gJsnw0H242o
-tags: Inmigrantes, Adolescencia, Francia
----
+tags: [inmigrantes, adolescencia, francia]
+--- 

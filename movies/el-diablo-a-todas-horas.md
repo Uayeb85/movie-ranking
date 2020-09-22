@@ -19,5 +19,5 @@ code: "00016"
 genre: Drama
 ranking: "5"
 trailer: https://www.youtube.com/embed/KtN6fpjRSHs
-tags: Religión, Crimen, Vidas Cruzadas
+tags: [religión, crimen, vidas cruzadas]
 ---
