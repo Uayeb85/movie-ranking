@@ -12,7 +12,7 @@ genre: Acción
 ranking: "6.5"
 trailer: https://www.youtube.com/embed/xthGgPbyhD4
 tags:
-  - girlpower
+  - girl power
   - comics
   - villanos
 ---
