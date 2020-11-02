@@ -17,5 +17,5 @@ trailer: https://www.youtube.com/embed/ym4EJQ7XORk
 tags:
   - india
   - tradiciones
-  - girlpower
+  - girl power
 ---
