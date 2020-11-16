@@ -17,6 +17,6 @@ ranking: "7"
 trailer: https://www.youtube.com/embed/x5S9ZVHVAh0
 tags:
   - URSS
-  - girlpower
+  - girl power
   - guerra
 ---
