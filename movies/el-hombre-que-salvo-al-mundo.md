@@ -12,10 +12,13 @@ description: On 26 September 1983, the computers in the Serpukhov-15 bunker
   that it was best to wait for ground radar confirmation before launching a
   counter-attack.
 release: "2015"
-view: 09-05-2020 
+view: 09-05-2020
 code: "00013"
 genre: Documental
 ranking: "7.5"
 trailer: https://www.youtube.com/embed/VaPXVJWHji4
-tags: [documental,guerra fria,urss]
+tags:
+  - documental
+  - guerra fria
+  - URSS
 ---
