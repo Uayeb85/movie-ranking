@@ -17,5 +17,5 @@ trailer: https://www.youtube.com/embed/JIO_BFCf8fU
 tags:
   - guerra
   - Afganistan
-  - historiareal
+  - historia real
 ---
