@@ -7,7 +7,7 @@ description: Tyler Rake, un intrépido mercenario que ofrece sus servicios en el
   rescatar al hijo secuestrado de un señor del crimen de Bombay
 release: "2020"
 view: 12-05-2020
-code: "00049"
+code: "00050"
 genre: Acción
 ranking: "7.5"
 trailer: https://www.youtube.com/embed/18fMBzX5PdA
