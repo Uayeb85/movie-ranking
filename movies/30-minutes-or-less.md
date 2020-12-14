@@ -13,5 +13,8 @@ code: "00002"
 genre: Comedia
 ranking: "5"
 trailer: https://www.youtube.com/embed/_o8u4pIf3Hs
-tags: [comedia, accion, aziz anzaris]
+tags:
+  - comedia
+  - acción
+  - aziz anzaris
 ---
