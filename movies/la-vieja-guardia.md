@@ -11,5 +11,8 @@ code: "00006"
 genre: Acción
 ranking: "6.5"
 trailer: https://www.youtube.com/embed/aK-X2d0lJ_s
-tags: [accion, camionera, heroes]
+tags:
+  - acción
+  - camionera
+  - heroes
 ---
