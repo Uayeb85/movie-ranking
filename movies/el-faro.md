@@ -15,7 +15,7 @@ genre: Suspenso
 ranking: "6"
 trailer: https://www.youtube.com/embed/hYLWBdO7l-g
 tags:
-  - blancoynegro
+  - blanco y negro
   - suspenso
   - locura
 ---
