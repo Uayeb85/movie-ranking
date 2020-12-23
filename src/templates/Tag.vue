@@ -78,7 +78,24 @@ query ($id:ID){
         belongsTo{
             edges{
                 node{
-                    ... on Movie{
+                    ... on Movie {
+                            title
+                            id
+                            ranking
+                            path
+                            featuredImage
+                            tags{
+                                id
+                                path
+                                }
+                    }
+                }
+            }
+        }
+        belongsTo{
+            edges{
+                node{
+                    ... on M2021 {
                             title
                             id
                             ranking
@@ -94,6 +111,8 @@ query ($id:ID){
         }
     }
 }
+
+
 </page-query>
 
 <style  scoped>

@@ -37,6 +37,20 @@ module.exports = {
           }
         }
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'M2021',
+        path: '2021/**/*.md',
+        refs: {
+          // Create a Tag content type and its nodes automatically.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
+      }
     }
   ],
   css: {
@@ -51,6 +65,12 @@ module.exports = {
       {
         path:"/movies/:title",
         component:"./src/templates/Movie.vue",
+      }
+    ],
+    M2021:[
+      {
+        path:"/2021/:title",
+        component:"./src/templates/M2021.vue",
       }
     ],
     Tag:[

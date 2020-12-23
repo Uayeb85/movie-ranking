@@ -12,7 +12,7 @@
                     <span class="mr-3">Ordenar por</span>
                     <div class="relative mr-8">
                         <button @click="isOpen = !isOpen" class="bg-white rounded border appearance-none border-black py-2 focus:outline-none focus:border-orange-500 text-base pl-3 pr-10">
-                          <span>Calificación</span>
+                          <span>A - Z</span>
                         </button>
                         <div v-if="isOpen" class="rounded shadow-md mt-2 absolute bg-black text-white  pin-t pin-l min-w-full">
                           <g-link to="/ranking/" class="block px-2 py-1 hover:text-black hover:bg-orange-500 ">Calificación</g-link>      

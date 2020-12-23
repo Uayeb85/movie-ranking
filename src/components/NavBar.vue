@@ -15,7 +15,7 @@
       </div>
       <div :class="isOpen ? 'block' : 'hidden'" class="px-4 pt-2 pb-4 sm:flex sm:p-0"  >
         <g-link to="/" class="block px-2 py-1 text-white font-semibold rounded hover:text-black hover:bg-orange-500 ">Inicio</g-link>      
-        <g-link to="/movies/" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:text-black hover:bg-orange-500 sm:mt-0 sm:ml-2">Películas</g-link>
+        <g-link to="/peliculas/" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:text-black hover:bg-orange-500 sm:mt-0 sm:ml-2">Películas</g-link>
       </div> 
   </header>
 </template>

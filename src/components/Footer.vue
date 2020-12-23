@@ -7,13 +7,13 @@
        </div> 
        <div class="pt-5 pl-20 flex items-center">
           <a href="https://medium.com/@gustavo.regucom06" class=""> 
-            <img src="" alt="" class="h-8 w-8 mr-5">
+            <g-image src="../assets/medium-iamuayeb.svg"  alt="" class="h-8 w-8 mr-5" />
           </a>
           <a href="https://twitter.com/uayeb"> 
-            <img src="" alt="" class="h-8 w-8 mr-5">
+            <g-image src="../assets/twitter-iamuayeb.svg" alt="" class="h-8 w-8 mr-5" />
           </a>
           <a href="https://www.linkedin.com/in/gustavo-arciniega-alonso/"> 
-            <img src="" alt="" class="h-8 w-8 mr-5">
+            <g-image src="../assets/linkedin-iamuayeb.svg" alt="" class="h-8 w-8 mr-5" />
           </a>
        </div>
        <div class="foot md:flex md:flex-col md:items-end md:pr-20 pb-20">
