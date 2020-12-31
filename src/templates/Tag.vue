@@ -13,7 +13,7 @@
                 mt-4 mb-4
                 ml-2 mr-2 
                 lg:w-1/5
-                md:w-1/2
+                md:w-1/2 
                 w-full">
 
          <div>
@@ -78,7 +78,7 @@ query ($id:ID){
         belongsTo{
             edges{
                 node{
-                    ... on Movie {
+                    ... on Movie   {
                             title
                             id
                             ranking

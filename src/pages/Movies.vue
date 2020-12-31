@@ -106,7 +106,7 @@ query ($page: Int){
         }
     edges{
       node{
-        id
+        id 
         view
         code
         title
