@@ -8,7 +8,7 @@
     <!-- Tarjetas -->
 
       <div class="flex justify-around flex-wrap ">
-        <div v-for="edge in $page.allMovie.edges.slice(0,4)"
+        <div v-for="edge in $page.allM2021.edges.slice(0,4)"
           :key="edge.node.id"
           class="
                 mt-4 mb-4
@@ -78,11 +78,11 @@ export default {
     title: 'Movie Raiting by IAmUayeb'
   }
 }
-</script>
+</script> 
 
 <page-query>
 query{
-  allMovie (sortBy: "view" , order: DESC){
+  allM2021 (sortBy: "view" , order: DESC){
     edges{
       node{
         id
