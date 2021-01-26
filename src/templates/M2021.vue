@@ -7,7 +7,11 @@
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                     <h2 class="text-sm title-font text-black tracking-widest">{{$page.movie.genre}}</h2>
                     <h1 class="text-black text-3xl title-font font-medium mb-1">{{$page.movie.title}} <span class="text-base text-black"> ({{$page.movie.release}}) </span> </h1>
-                    <p class="leading-relaxed">Calificación: <span class="font-bold"> {{$page.movie.ranking}} / 10 </span></p>
+                    <p class="leading-relaxed">  Calificación:
+                        <span class="font-bold"> 
+                            {{$page.movie.ranking}}  
+                        </span>
+                    </p>
                     <p class="leading-relaxed">Fecha que la vi: <span class="font-bold"> {{$page.movie.view}} </span></p>
                     <div>
                          <g-link v-for="tag in $page.movie.tags" :to="tag.path" :key="tag.id">  
@@ -77,6 +81,12 @@ query ($path: String!){
 .trailer-desktop{
     display: none;
 }
+
+.estrella{
+    width: 20px;
+    height: 20px;
+}
+
 }
 
 

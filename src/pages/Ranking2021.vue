@@ -19,7 +19,15 @@
                 lg:w-1/5
                 md:w-1/2
                 w-full">
+                <div class="flex justify-end">
+                   <span class="absolute bg-orange-400 rounded p-2 m-2 flex items-center"> 
+                          <g-image src="../assets/estrella.svg" class="estrella"/>
 
+                          {{edge.node.ranking}}
+
+                   </span>
+
+                </div>
          <div>
            <g-image :src="edge.node.featuredImage"  class="rounded-t-md size object-cover object-center" />
          </div> 
@@ -141,5 +149,10 @@ export default {
 .pager:hover{
   background: white;
   color: black;
+}
+
+.estrella{
+  width: 20px;
+  height: 12px;
 }
 </style>

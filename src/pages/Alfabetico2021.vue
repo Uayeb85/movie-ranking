@@ -19,7 +19,13 @@
                 lg:w-1/5
                 md:w-1/2
                 w-full">
+                <div class="flex justify-end">
+                  <span class="absolute bg-orange-400 rounded p-2 m-2 flex items-center"> 
+                      <g-image src="../assets/estrella.svg" class="estrella"/>
 
+                    {{edge.node.ranking}}
+                  </span>  
+                </div>
          <div>
            <g-image :src="edge.node.featuredImage"  class="rounded-t-md size object-cover object-center" />
          </div> 
@@ -29,7 +35,6 @@
                  border-gray-600
                  pb-4
                  rounded-b-md">
-          <p class="text-s pl-3 text-black font-thin mt-2 mb-1 ">Calificación {{edge.node.ranking}} / 10</p>
           <h3 class="text-black
                     text-s 
                     font-medium
@@ -140,6 +145,11 @@ export default {
 .pager:hover{
   background: white;
   color: black;
+}
+
+.estrella{
+  height: 20px;
+  width: 12px;
 }
 
 </style>
