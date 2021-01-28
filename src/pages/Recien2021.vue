@@ -3,25 +3,24 @@
               <!-- Seccion productos -->
     <section class="bg-white pb-10">
       <div class="flex items-center justify-center pt-8 pb-8">
-       <h2 class="text-4xl">Reciend añadidas</h2>
+       <h2 class="sm:text-2xl md:text-4xl">Recien añadidas</h2>
       </div>
 
                     <!-- Ordenar POR -->
 
-    <Clasificacion />
+    <Clasificacion  />
     <!-- Tarjetas -->
 
       <div class="flex justify-around flex-wrap ">
         <div v-for="edge in $page.allM2021.edges"
           :key="edge.node.id"
           class="
-                mt-4 mb-4
-                ml-2 mr-2 
                 lg:w-1/5
-                md:w-1/2
-                w-full">
+                md:w-1/1
+                mt-4
+                lg:ml-2">
                 <div class="flex justify-end">
-                  <span class="absolute bg-orange-400 rounded p-2 m-2 flex items-center"> 
+                  <span class="absolute bg-orange-400 rounded p-2  flex items-center"> 
                       <g-image src="../assets/estrella.svg" class="estrella"/>
 
                     {{edge.node.ranking}}

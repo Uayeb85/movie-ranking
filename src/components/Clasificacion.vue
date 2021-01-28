@@ -1,7 +1,7 @@
 <template>
-    <div class="flex items-center md:justify-center">
-        <span class="mr-3">Ordenar por</span>
-            <div class="relative mr-8">
+    <div class="flex items-center md:justify-center ">
+        <span class="mr-4">Ordenar por</span>
+            <div class="relative ">
                         <button @click="isOpen = !isOpen" class="bg-white rounded border appearance-none border-black py-2 focus:outline-none focus:border-orange-500 text-base pl-3 pr-10">
                           <span>Calificación</span>
                         </button>
