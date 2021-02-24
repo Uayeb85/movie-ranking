@@ -13,7 +13,7 @@ genre: Acción
 ranking: "7.5"
 trailer: https://www.youtube.com/embed/cZWYgNfmmR0
 tags:
-  - accion
+  - acción
   - pandillas
   - policía
 ---
