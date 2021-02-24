@@ -22,6 +22,6 @@ ranking: "6"
 trailer: https://www.youtube.com/embed/KMyUnyxVB9Q
 tags:
   - documental
-  - futbol
+  - biografia
   - deporte
 ---
