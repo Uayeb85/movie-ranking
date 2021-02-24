@@ -14,5 +14,5 @@ trailer: https://www.youtube.com/embed/jXg0V2tyhXo
 tags:
   - documental
   - millonarios
-  - biografia
+  - biografía
 ---
