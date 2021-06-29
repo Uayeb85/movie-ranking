@@ -14,5 +14,5 @@ trailer: https://www.youtube.com/embed/wAJcykyq7DU
 tags:
   - acción
   - girl power
-  - venganza
+  - Francia
 ---
