@@ -1,5 +1,5 @@
 ---
-title: "La calle del terror: 1994"
+title: La calle del terror 1994
 featuredImage: /uploads/calle_del_terror_1994.jpg
 posterImage: /uploads/fear_street_part_one_1994-poster.jpg
 description: "En 1994, un grupo de adolescentes descubre que los sucesos que
