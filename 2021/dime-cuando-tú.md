@@ -15,6 +15,6 @@ ranking: "3"
 trailer: https://www.youtube.com/embed/d0o7tEl7CP4
 tags:
   - comedia
-  - cdmx
+  - CDMX
   - amor
 ---
