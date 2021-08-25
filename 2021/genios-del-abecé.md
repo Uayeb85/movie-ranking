@@ -6,7 +6,7 @@ description: Siguiendo a cuatro concursantes, este documental muestra el éxito 
   la impecable racha de los participantes estadounidenses de origen indio, que
   ganan el mayor concurso de deletreo de palabras en EEUU desde hace décadas.
 release: "2020"
-view: 8-8-2021
+view: 08-08-2021
 code: "10063"
 genre: Documental
 ranking: "8"
