@@ -18,6 +18,6 @@ ranking: "2"
 trailer: https://www.youtube.com/embed/CepOrdyl7Jg
 tags:
   - comedia
-  - lgbt
+  - LGBT
   - familia
 ---
