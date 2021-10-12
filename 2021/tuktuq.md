@@ -14,7 +14,7 @@ genre: Drama
 ranking: "7"
 trailer: https://www.youtube.com/embed/G2EzOYswwqA
 tags:
-  - Canada
+  - Canadá
   - drama
   - corporaciones
 ---
