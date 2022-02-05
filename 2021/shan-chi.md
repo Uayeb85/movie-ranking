@@ -1,7 +1,7 @@
 ---
 title: Shan Chi
-featuredImage: /uploads/shang_chi_and_the_legend_of_the_ten_rings.jpg
-posterImage: /uploads/shang_chi_and_the_legend_of_the_ten_rings-poster.jpg
+featuredImage: /uploads/shang_chi_and_the_legend.jpg
+posterImage: /uploads/shang_chi.jpg
 description: "Adaptación cinematográfica del héroe creado por Steve Englehart y
   Jim Starlin en 1973, un personaje mitad chino, mitad americano, cuyo
   característico estilo de combate mezclaba kung-fu, nunchacos y armas de fuego.
