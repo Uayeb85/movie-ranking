@@ -8,8 +8,8 @@ description: Tras salir de prisión después de cumplir condena por un crimen
   vez fue su hogar, su única esperanza de redención es encontrar a su hermana
   pequeña a la que tuvo que dejar detrás.
 release: "2021"
-view: 12-27-2021
-code: "10092"
+view: 12-28-2021
+code: "10094"
 genre: Drama
 ranking: "8"
 trailer: https://www.youtube.com/embed/MiFEZu7pQo0
