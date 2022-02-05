@@ -16,6 +16,6 @@ ranking: "4"
 trailer: https://www.youtube.com/embed/h1xg9o-t2ks
 tags:
   - soledad
-  - cdmx
+  - CDMX
   - drama
 ---
