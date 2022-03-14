@@ -51,7 +51,47 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'M2022',
+        path: '2022/**/*.md',
+        refs: {
+          // Create a Tag content type and its nodes automatically.
+          tags: {
+            typeName: 'Tag',
+            create: true
+          }
+        }
+      }
+    },
+    {
+      use: 'gridsome-plugin-flexsearch',
+      options: {
+        flexsearch: {
+          profile: 'match'
+        },
+        collections: [
+          {
+            typeName: 'Movie',
+            indexName: 'Movie',
+            fields: ['title', 'path']
+          },
+          {
+            typeName: 'Tag',
+            indexName: 'Tag',
+            fields: ['id', 'path']
+          },
+          {
+            typeName: 'M2021',
+            indexName: 'M2021',
+            fields: ['title', 'path']
+          }
+        ],
+        searchFields: ['title', 'handle', 'tags', 'id']
+      }
+    }    
   ],
   css: {
     loaderOptions: {
@@ -71,6 +111,12 @@ module.exports = {
       {
         path:"/2021/:title",
         component:"./src/templates/M2021.vue",
+      }
+    ],
+    M2022:[
+      {
+        path:"/2022/:title",
+        component:"./src/templates/M2022.vue",
       }
     ],
     Tag:[

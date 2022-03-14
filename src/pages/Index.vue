@@ -2,8 +2,8 @@
     <layout>
               <!-- Seccion productos -->
     <section class="bg-white pb-10">
-      <div class="flex items-center justify-center pt-8 pb-8">
-       <h2 class="text-4xl">Vistas Recientemente</h2>
+      <div class="sm:flex sm:items-center sm:justify-center flex justify-center pt-8 pb-8">
+        <h2 class="sm:text-4xl text-3xl">Vistas Recientemente</h2>
       </div>
     <!-- Tarjetas -->
 
@@ -15,30 +15,32 @@
                 md:w-1/1
                 md:mt-3
                 mt-3
+                sm:mb-0
+                mb-4
                 lg:mt-0
                 ">
-                <div class="flex justify-end">
-                  <span class="absolute bg-orange-400 rounded p-2 flex items-center"> 
+                <div class="flex">
+                  <span class="absolute bg-teal-400 rounded p-2 flex items-center"> 
                       <g-image src="../assets/estrella.svg" class="estrella"/>
 
                     {{edge.node.ranking}}
                   </span>  
                 </div>           
          <div>
-           <g-image :src="edge.node.featuredImage"  class="rounded-t-md size object-cover object-center" />
+           <g-link :to="edge.node.path">
+              <g-image :src="edge.node.featuredImage"  class="rounded-t-md size object-cover object-center" />
+           </g-link>
          </div> 
           <div 
           class="bg-white 
-                 border
-                 border-gray-600
                  pb-4
                  rounded-b-md">
           <h3 class="text-black
-                    text-s 
+                    text-2xl
                     tracking-widest 
                     font-medium
-                    mt-2 mb-1 
-                    pl-3">
+                    mt-3 mb-1 
+                    pl-0">
             {{edge.node.title}}
           </h3>          
           <div>
@@ -47,13 +49,14 @@
                  class="mt-2
                            text-xs
                          text-black
-                         bg-orange-400
+                         bg-teal-400
                            border-0
                            py-2 px-6
-                           ml-3
+                           mr-3
                            focus:outline-none
                            rounded
-                           hover:bg-white">          
+                           hover:bg-purple-700
+                           hover:text-white">          
             {{tag.id}}
             </button>
           </g-link>
@@ -61,12 +64,12 @@
          <g-link :to="edge.node.path"> 
              <button class="mt-3 
                         text-white 
-                        bg-black
+                        bg-purple-700
                         border-0 
                         py-2 px-6 
-                        ml-3
                         focus:outline-none 
-                        hover:bg-orange-400 
+                        hover:bg-teal-400 
+                        hover:text-black
                         rounded">
               Más información
             </button> 
@@ -81,14 +84,14 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Movie Raiting by IAmUayeb'
+    title: 'Movie Raiting by I Am Uayeb'
   }
 }
 </script> 
 
 <page-query>
 query{
-  allM2021 (sortBy: "view" , order: DESC){
+  allM2021 (sortBy: "code" , order: DESC){
     edges{
       node{
         id

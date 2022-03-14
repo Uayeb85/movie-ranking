@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-black rounded-lg m-1" id="footer">
+    <div class="bg-teal-500 rounded-lg m-1" id="footer">
       <div>
         <div class="pt-20 pl-20">
           <h1 class="text-white text-6xl font-bold" >I Am Uayeb</h1>
-          <h3 class="text-white text-xl ">Contact me at: <span class="font-bold"> <a href="mailto:hello@iamuayeb.com" class="hover:text-orange-400">hello@iamuayeb.com </a>  </span>  </h3>
+          <h3 class="text-white text-xl ">Contact me at: <span class="font-bold"> <a href="mailto:hello@iamuayeb.com" class="hover:text-purple-700">hello@iamuayeb.com </a>  </span>  </h3>
        </div> 
        <div class="pt-5 pl-20 flex items-center">
           <a href="https://medium.com/@gustavo.regucom06" class=""> 
@@ -21,9 +21,9 @@
              <span> 
            <i class="fa fa-heart" aria-hidden="true"></i> 
            </span> love in
-           <span> <a href="https://en.wikipedia.org/wiki/Mexico_City" class="hover:text-orange-400 font-semibold cursor-pointer">  CDMX  </a> </span> 
+           <span> <a href="https://en.wikipedia.org/wiki/Mexico_City" class="hover:text-purple-700 font-semibold cursor-pointer">  CDMX  </a> </span> 
            </h4>  
-         <p class="text-white  text-lg md:text-xl">2020</p>
+         <p class="text-white  text-lg md:text-xl">{{getCurrentYear}}</p>
        </div>
 
       </div>
@@ -38,8 +38,10 @@
 
 <script>
 export default {
-  name: 'About',
-  props: {
+  computed: {
+    getCurrentYear(){
+      return new Date().getFullYear()
+    }
   }
 }
 </script>
