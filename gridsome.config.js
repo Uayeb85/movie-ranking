@@ -87,6 +87,11 @@ module.exports = {
             typeName: 'M2021',
             indexName: 'M2021',
             fields: ['title', 'path']
+          },
+          {
+            typeName: 'M2022',
+            indexName: 'M2022',
+            fields: ['title', 'path']
           }
         ],
         searchFields: ['title', 'handle', 'tags', 'id']
