@@ -87,7 +87,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Top 2020 by Uayeb'
+    title: 'Top 2021 by Uayeb'
   }
 }
 </script> 

@@ -8,7 +8,7 @@
     <!-- Tarjetas -->
 
       <div class="flex justify-around flex-wrap ">
-        <div v-for="edge in $page.allM2021.edges.slice(0,4)"
+        <div v-for="edge in $page.allM2022.edges.slice(0,4)"
           :key="edge.node.id"
           class="
                 lg:w-1/5
@@ -87,12 +87,14 @@
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-          <g-image class="lg:h-64 md:h-64 w-full object-cover object-top" src="../assets/the_batman.jpg" alt="2022" />
+          <g-link to="/Top2022">
+              <g-image class="lg:h-64 md:h-64 w-full object-cover object-top" src="../assets/the_batman.jpg" alt="2022" />
+          </g-link>
           <div class="p-6">
             <h2 class="tracking-widest text-4xl title-font font-medium text-gray-400 mb-1">2022</h2>
             <div class="flex items-center flex-wrap ">
-              <a class="text-gray-200 inline-flex items-center md:mb-2 lg:mb-0 hover:text-gray-600">Conoce más
-              </a>
+              <g-link to="/Top2022" class="text-gray-200 inline-flex items-center md:mb-2 lg:mb-0 hover:text-gray-600">Conoce más
+              </g-link>
             </div>
           </div>
         </div>
@@ -144,7 +146,7 @@ export default {
 
 <page-query>
 query{
-  allM2021 (sortBy: "code" , order: DESC){
+  allM2022 (sortBy: "code" , order: DESC){
     edges{
       node{
         id

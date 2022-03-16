@@ -19,13 +19,14 @@
                                 class="mt-2
                                         text-xs
                                         text-white
-                                        bg-black
+                                        bg-purple-700
                                         border-0
                                         py-2 px-6
                                         ml-1
                                         focus:outline-none
                                         rounded
-                                        hover:bg-orange-400">          
+                                        hover:bg-teal-400
+                                        hover:text-black">          
                             {{tag.id}}
                            </button>
                          </g-link>
@@ -40,7 +41,7 @@
                             <iframe width="315" height="315" :src="$page.movie.trailer" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </span>
                     </div>
-                    <g-link to="/2021/"> <button class="flex ml-right text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-orange-400 rounded mt-4">Regresar</button> </g-link>
+                    <g-link to="/2022/"> <button class="flex ml-right text-white bg-purple-700 border-0 py-2 px-6 focus:outline-none hover:bg-teal-400 hover:text-black  rounded mt-4">Regresar</button> </g-link>
 
                 </div>
                 </div>
