@@ -83,6 +83,9 @@
                     </div>
                     </div>
                 </div>
+                  <div class="mt-10">
+                    <Pager :info="$page.allM2022.pageInfo" linkClass="pager" class="text-center"/>
+                  </div>                 
         </section>  
     </layout>
 </template>
@@ -90,7 +93,7 @@
 
 <page-query>
 query ($page: Int){
-  allM2022 (sortBy: "ranking" , order: DESC, perPage:8, page: $page) @paginate{
+  allM2022 (sortBy: "ranking" , order: DESC, perPage:10, page: $page) @paginate{
     pageInfo{
           totalPages
           currentPage 
@@ -135,6 +138,20 @@ export default {
     height: 300px;
     width: 369px;
 }
+
+.pager{
+  letter-spacing: 2px;
+  padding: 10px;
+  margin-right: 8px;
+  background-color: black;
+  color: #fff;
+}
+
+.pager:hover{
+  background: white;
+  color: black;
+}
+
 
 .estrella{
   height: 20px;
