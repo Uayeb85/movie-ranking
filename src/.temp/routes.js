@@ -10,9 +10,11 @@ const c9 = () => import(/* webpackChunkName: "page--src--pages--alfabetico2021-v
 const c10 = () => import(/* webpackChunkName: "page--src--pages--2021-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/2021.vue")
 const c11 = () => import(/* webpackChunkName: "page--src--templates--m2021-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/templates/M2021.vue")
 const c12 = () => import(/* webpackChunkName: "page--src--templates--m2022-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/templates/M2022.vue")
-const c13 = () => import(/* webpackChunkName: "page--src--pages--peliculas-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Peliculas.vue")
-const c14 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/movie-ranking/node_modules/gridsome/app/pages/404.vue")
-const c15 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Index.vue")
+const c13 = () => import(/* webpackChunkName: "page--src--pages--top2020-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Top2020.vue")
+const c14 = () => import(/* webpackChunkName: "page--src--pages--top2021-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Top2021.vue")
+const c15 = () => import(/* webpackChunkName: "page--src--pages--peliculas-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Peliculas.vue")
+const c16 = () => import(/* webpackChunkName: "page--node-modules--gridsome--app--pages--404-vue" */ "/home/uayeb/Escritorio/movie-ranking/node_modules/gridsome/app/pages/404.vue")
+const c17 = () => import(/* webpackChunkName: "page--src--pages--index-vue" */ "/home/uayeb/Escritorio/movie-ranking/src/pages/Index.vue")
 
 export default [
   {
@@ -64,22 +66,30 @@ export default [
     component: c12
   },
   {
-    path: "/peliculas/",
+    path: "/top2020/",
     component: c13
+  },
+  {
+    path: "/top2021/",
+    component: c14
+  },
+  {
+    path: "/peliculas/",
+    component: c15
   },
   {
     name: "404",
     path: "/404/",
-    component: c14
+    component: c16
   },
   {
     name: "home",
     path: "/",
-    component: c15
+    component: c17
   },
   {
     name: "*",
     path: "*",
-    component: c14
+    component: c16
   }
 ]
