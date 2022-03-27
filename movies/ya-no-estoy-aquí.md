@@ -17,6 +17,6 @@ ranking: "6"
 trailer: https://www.youtube.com/embed/ngl5wCDw840
 tags:
   - música
-  - monterrey
+  - Monterrey
   - migración
 ---
