@@ -15,5 +15,5 @@ trailer: https://www.youtube.com/embed/CDnhh4NEi_U
 tags:
   - drama
   - racismo
-  - Estados Unidos
+  - USA
 ---
