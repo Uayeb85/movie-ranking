@@ -13,6 +13,6 @@ ranking: "8"
 trailer: https://www.youtube.com/embed/ngclh-Rn3iI
 tags:
   - documental
-  - california
+  - California
   - música
 ---
