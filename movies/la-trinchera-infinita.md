@@ -15,7 +15,7 @@ genre: Drama
 ranking: "7.5"
 trailer: https://www.youtube.com/embed/SIYlzIKGfsI
 tags:
-  - españa
+  - España
   - guerra civil
   - drama
 ---
