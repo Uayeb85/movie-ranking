@@ -15,6 +15,6 @@ ranking: "7"
 trailer: https://www.youtube.com/embed/6sxCFZ8_d84
 tags:
   - drama
-  - Estados Unidos
+  - USA
   - aventura
 ---
