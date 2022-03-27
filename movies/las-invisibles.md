@@ -14,6 +14,6 @@ ranking: "7"
 trailer: https://www.youtube.com/embed/GF5tcw5yjyA
 tags:
   - girl power
-  - francia
+  - Francia
   - drama
 ---
