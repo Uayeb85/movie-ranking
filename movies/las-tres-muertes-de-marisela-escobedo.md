@@ -17,6 +17,6 @@ ranking: "8.5"
 trailer: https://www.youtube.com/embed/2vsHHKwqPD8
 tags:
   - feminicidos
-  - méxico
+  - México
   - injusticia
 ---
