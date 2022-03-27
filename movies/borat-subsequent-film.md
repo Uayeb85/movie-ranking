@@ -11,7 +11,7 @@ genre: Comedia
 ranking: "5"
 trailer: https://www.youtube.com/embed/HOwaypo3jC4
 tags:
-  - usa
+  - USA
   - racismo
   - comedia
 ---
