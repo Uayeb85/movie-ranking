@@ -132,6 +132,10 @@
 </section>
 
     <!-- TOPS Peliculas FIN -->
+<div id="consent-banner"></div>
+<div id="teconsent">
+  <script type="text/javascript" async="async" src="https://consent.trustarc.com/v2/notice/lwnrzl"></script>
+</div>
 
     </layout>
 </template>
