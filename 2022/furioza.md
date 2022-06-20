@@ -12,7 +12,7 @@ description: "Un suceso del pasado separa el destino de tres amigos. Años
   criminal organizado."
 release: "2021"
 view: 06-02-2022
-code: "20046"
+code: "20047"
 genre: Drama
 ranking: "7"
 trailer: https://www.youtube.com/embed/SwJ6HeZxV08
