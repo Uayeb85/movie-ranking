@@ -17,7 +17,7 @@ genre: Animación
 ranking: "4"
 trailer: https://www.youtube.com/embed/CaimKeDcudo
 tags:
-  - animacion
+  - animación
   - familia
   - disney
 ---
