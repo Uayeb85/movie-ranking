@@ -9,7 +9,7 @@ view: 07-02-2022
 code: "20056"
 genre: Drama
 ranking: "8"
-trailer: https://www.youtube.com/embed/v=7mzushAOM88
+trailer: https://www.youtube.com/embed/7mzushAOM88
 tags:
   - drama
   - familia
