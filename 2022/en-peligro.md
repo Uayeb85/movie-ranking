@@ -9,7 +9,7 @@ view: 07-10-2022
 code: "20057"
 genre: Documental
 ranking: "7"
-trailer: https://www.youtube.com/embed/v=vRLCqi5hodM
+trailer: https://www.youtube.com/embed/vRLCqi5hodM
 tags:
   - documental
   - periodistas
