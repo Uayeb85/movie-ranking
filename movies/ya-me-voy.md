@@ -20,6 +20,6 @@ ranking: "4"
 trailer: https://www.youtube.com/embed/cvHcM95ih4k
 tags:
   - migración
-  - nyc
+  - NYC
   - soledad
 ---
