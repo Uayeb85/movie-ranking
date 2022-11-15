@@ -9,7 +9,7 @@ view: 09-09-2022
 code: "20075"
 genre: Acción
 ranking: "6.5"
-trailer: https://www.youtube.com/embed/v=qq3i6DrnWa8
+trailer: https://www.youtube.com/embed/qq3i6DrnWa8
 tags:
   - acción
   - Francia
