@@ -12,6 +12,6 @@ ranking: "8"
 trailer: https://www.youtube.com/embed/-W7Bek4jvos
 tags:
   - documental
-  - deportes
+  - deporte
   - juegos paralímpicos
 ---
