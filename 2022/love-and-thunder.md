@@ -18,7 +18,7 @@ view: 09-03-2022
 code: "20073"
 genre: Acción
 ranking: "6"
-trailer: https://www.youtube.com/embed/v=Go8nTmfrQd8
+trailer: https://www.youtube.com/embed/Go8nTmfrQd8
 tags:
   - acción
   - MCU
