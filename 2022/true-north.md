@@ -9,7 +9,7 @@ view: 08-31-2022
 code: "20072"
 genre: Documental
 ranking: "6"
-trailer: https://www.youtube.com/embed/v=i3fCLkJMp5g
+trailer: https://www.youtube.com/embed/i3fCLkJMp5g
 tags:
   - documental
   - deporte
