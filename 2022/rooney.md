@@ -12,7 +12,7 @@ view: 09-04-2022
 code: "20074"
 genre: Documental
 ranking: "7"
-trailer: https://www.youtube.com/embed/v=uR5FVRNY9FU
+trailer: https://www.youtube.com/embed/uR5FVRNY9FU
 tags:
   - documental
   - biografía
