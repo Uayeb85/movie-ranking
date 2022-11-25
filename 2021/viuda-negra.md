@@ -17,5 +17,5 @@ trailer: https://www.youtube.com/embed/Fp9pNPdNwjI
 tags:
   - acción
   - girl power
-  - comics
+  - mcu
 ---
