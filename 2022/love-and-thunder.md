@@ -21,6 +21,6 @@ ranking: "6"
 trailer: https://www.youtube.com/embed/Go8nTmfrQd8
 tags:
   - acción
-  - MCU
+  - mcu
   - comics
 ---
