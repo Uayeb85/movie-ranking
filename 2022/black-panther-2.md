@@ -18,5 +18,5 @@ trailer: https://www.youtube.com/embed/BPjbiZQmBI4
 tags:
   - acción
   - comics
-  - MCU
+  - mcu
 ---
